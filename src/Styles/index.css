@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    :root{
+        --primary-color:red
+    }
+    .topbar{
+        @apply bg-[var(--primary-color)]
+    }
+    .contactDetails{
+        @apply flex items-center
+    }
+    .icon{
+        @apply p-0
+    }
+    .contactDetails::after{
+        content: "|";
+    }
+    ::after{
+        @apply px-1 text-slate-100
+    }
+}

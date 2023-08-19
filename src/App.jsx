@@ -1,18 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { Component } from 'react'
+import {Header} from './Components'
+class App extends Component {
 
-function App() {
-  const [count, setCount] = useState(0)
+  constructor(props) {
+    super(props)
+    this.state = {
+       
+    }
+  }
 
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
-  )
+  render() {
+    return (
+      <div>
+        <Header/>
+      </div>
+    )
+  }
 }
 
 export default App
