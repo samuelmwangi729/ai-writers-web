@@ -1,9 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    font-family: 'Times New Roman', Times, serif !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    box-shadow: black 5px 5px 15px;
+}
 @layer base{
     :root{
-        --primary-color:red
+        --primary-color:#2E3192
     }
     .topbar{
         @apply bg-[var(--primary-color)]
@@ -19,5 +28,11 @@
     }
     ::after{
         @apply px-1 text-slate-100
+    }
+    div.links ul li{
+        @apply px-3 text-lg text-[var(--primary-color)] font-bold
+    }
+    .buttons{
+        @apply flex justify-between
     }
 }
