@@ -54,7 +54,7 @@
         @apply bg-[var(--secondary-color)] text-white border-l-4 border-[--primary-color]
     }
     div.sliderComment{
-        @apply absolute top-[30%] bg-black/80 h-[30vh] duration-300 left-3 w-[80vw]
+        @apply absolute top-[30%] bg-black/80 h-[30vh] duration-300 left-3 w-[fit-content]
         flex flex-col justify-between items-start px-2
     }
     h2.sliderHeading{
