@@ -56,11 +56,11 @@
         @apply px-3 text-lg border-b-2
     }
     .cta button{
-        @apply bg-[var(--secondary-color)] text-white border-l-4 border-[--primary-color]
+        @apply bg-[var(--primary-color)] text-white border-l-4 border-[--secondary-color]
     }
     div.sliderComment{
-        @apply absolute top-[30%] bg-black/80 h-[30vh] duration-300 left-3 w-[fit-content]
-        flex flex-col justify-between items-start px-2
+        @apply absolute top-[30%] bg-red-700/50 h-[30vh] duration-300 left-3 w-[fit-content]
+        flex flex-col justify-between items-start px-5 py-3
     }
     h2.sliderHeading{
         @apply text-[wheat] text-2xl

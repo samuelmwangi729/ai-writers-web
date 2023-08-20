@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Header,Slider,Hero} from './Components'
+import {Header,Slider,Hero,Projects} from './Components'
 class App extends Component {
 
   constructor(props) {
@@ -15,6 +15,7 @@ class App extends Component {
         <Header/>
         <Slider/>
         <Hero/>
+        <Projects/>
       </div>
     )
   }

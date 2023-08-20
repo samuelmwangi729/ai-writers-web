@@ -12,7 +12,7 @@ class Hero extends Component{
     render =()=>{
         return(
             <>
-                <div className="hero mb-6">
+                <div className="hero mt-3 mb-3">
                     <h2 className='py-4 text-3xl font-semibold text-center bg-[var(--primary-color)] text-white'>
                         Our Benefits
                     </h2>
