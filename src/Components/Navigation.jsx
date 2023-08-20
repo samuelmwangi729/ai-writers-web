@@ -61,7 +61,7 @@ class Navigation extends Component {
                      
                 </div>
                 {/* overloay */}
-                <div className={this.state.nav?'lg:hidden overlay bg-black/80 w-full h-screen top-[100%] left-0 absolute z-100 duration-300':'duration-300 overlay bg-black/60 w-full h-screen top-0 right-[-100%] absolute z-100'}>
+                <div className={this.state.nav?'lg:hidden overlay bg-black/80 w-full h-screen top-[100%] left-0 absolute z-100 duration-300':'hidden'}>
                     <div className={this.state.nav ? 'lg:hidden absolute mobileLinks absolute z-1001 top-[0] right-2 h-[fit-content] bg-[var(--primary-color)] transition duration-300': 'hidden'}>
                     <ul className='flex items-left justify-between flex-col text-white'>
                         <li>

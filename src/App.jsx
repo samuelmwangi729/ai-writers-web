@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Header} from './Components'
+import {Header,Slider} from './Components'
 class App extends Component {
 
   constructor(props) {
@@ -13,6 +13,7 @@ class App extends Component {
     return (
       <div>
         <Header/>
+        <Slider/>
       </div>
     )
   }

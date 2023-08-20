@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {TfiInstagram} from 'react-icons/tfi'
-import {AiOutlineMail} from 'react-icons/ai'
+import {AiOutlineMail,AiOutlinePhone} from 'react-icons/ai'
 class Top extends Component {
 
     constructor(props) {
@@ -29,27 +29,17 @@ class Top extends Component {
                                     <AiOutlineMail/>
                                 </div>
                                 <div className="contentContact">
-                                    Email
+                                    Info@proseprowriters.org
                                 </div>
                             </div>
                         </li>
                         <li className="contactItem">
                             <div className="contactDetails">
                                 <div className="icon">
-                                    <AiOutlineMail/>
+                                    <AiOutlinePhone/>
                                 </div>
                                 <div className="contentContact">
-                                    Email
-                                </div>
-                            </div>
-                        </li>
-                        <li className="contactItem">
-                            <div className="contactDetails">
-                                <div className="icon">
-                                    <AiOutlineMail/>
-                                </div>
-                                <div className="contentContact">
-                                    Email
+                                    0706900697
                                 </div>
                             </div>
                         </li>

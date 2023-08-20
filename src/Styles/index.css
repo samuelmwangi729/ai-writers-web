@@ -50,4 +50,26 @@
     div.mobileLinks ul li{
         @apply px-3 text-lg border-b-2
     }
+    .cta button{
+        @apply bg-[var(--secondary-color)] text-white border-l-4 border-[--primary-color]
+    }
+    div.sliderComment{
+        @apply absolute top-[30%] bg-black/80 h-[30vh] duration-300 left-3 w-[80vw]
+        flex flex-col justify-between items-start px-2
+    }
+    h2.sliderHeading{
+        @apply text-[wheat] text-2xl
+    }
+    div.description{
+        @apply text-xl text-[wheat]
+    }
+    .btn-content{
+        @apply flex items-center p-2
+    }
+    .btn-icon{
+        @apply mr-2
+    }
+    .btn-label{
+        @apply whitespace-nowrap
+    }
 }
