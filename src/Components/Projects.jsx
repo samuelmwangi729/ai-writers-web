@@ -55,7 +55,7 @@ class Projects extends Component {
                                 <div className="project-description text-left">
                                     <div className="contents text-left text-xl  text-[var(--secondary-color)]">
                                         Topic <span className='font-bold text-black lowercase'>
-                                            How to Mask Poor Communications
+                                            How to Mask Poor Comms and Devices
                                             </span>
                                     </div>
                                     <br/>
