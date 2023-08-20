@@ -13,6 +13,11 @@
 .transition-all{
     transition: width 3s ease-in-out;
 }
+.benefits{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 1;
+}
 @media screen and (max-width:350px){
     .buttons{
         transition: width 3s ease-in;
@@ -71,5 +76,14 @@
     }
     .btn-label{
         @apply whitespace-nowrap
+    }
+    .benefitDescription{
+        @apply flex flex-col justify-between items-center
+    }
+    .benContent{
+        @apply  text-3xl font-thin
+    }
+    .benefits li{
+        @apply  text-center border-4 rounded-3xl p-10 bg-[var(--secondary-color)] text-white
     }
 }

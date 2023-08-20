@@ -54,7 +54,7 @@ class Navigation extends Component {
                 </div>
                 <div className="buttons transition-all duration-200 flex">
                     <button className='bg-[var(--primary-color)] text-white px-4 mr-2 whitespace-nowrap'>Sign In</button>
-                    <button className='bg-orange-500 text-white px-4 whitespace-nowrap'>Sign Up</button>
+                    <button className='bg-[var(--secondary-color)] text-white px-4 whitespace-nowrap'>Sign Up</button>
                 </div>
                 <div className="mobileMenu text-black block lg:hidden">
                     {this.state.nav? <AiOutlineClose size={30} onClick={this.closeMenu}/>:<AiOutlineMenu size={30} onClick={this.setVisible}/> }
