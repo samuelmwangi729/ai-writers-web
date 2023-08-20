@@ -10,6 +10,21 @@
 .navigation{
     box-shadow: black 5px 5px 15px;
 }
+.transition-all{
+    transition: width 3s ease-in-out;
+}
+@media screen and (max-width:350px){
+    .buttons{
+        transition: width 3s ease-in;
+    }
+    .buttons button{
+        padding:0px 2px !important;
+        font-size: 12px !important;
+    }
+    .brand img{
+        width: 100px !important;
+    }
+}
 @layer base{
     :root{
         --primary-color:#2E3192
@@ -32,7 +47,7 @@
     div.links ul li{
         @apply px-3 text-lg text-[var(--primary-color)] font-bold
     }
-    .buttons{
-        @apply flex justify-between
+    div.mobileLinks ul li{
+        @apply px-3 text-lg border-b-2
     }
 }
