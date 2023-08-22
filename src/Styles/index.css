@@ -86,4 +86,7 @@
     .benefits li{
         @apply  text-center border-4 rounded-3xl p-10 bg-[var(--secondary-color)] text-white
     }
+    ul.footer li{
+        
+    }
 }
